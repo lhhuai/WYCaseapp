@@ -1,17 +1,17 @@
 //
-//  AppDelegate.m
+//  WYAppDelegate.m
 //  WYCaseapp
 //
 //  Created by wyggdd on 2023/3/2.
 //
 
-#import "AppDelegate.h"
+#import "WYAppDelegate.h"
 
-@interface AppDelegate ()
+@interface WYAppDelegate ()
 
 @end
 
-@implementation AppDelegate
+@implementation WYAppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {

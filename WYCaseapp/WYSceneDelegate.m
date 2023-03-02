@@ -1,17 +1,17 @@
 //
-//  SceneDelegate.m
+//  WYSceneDelegate.m
 //  WYCaseapp
 //
 //  Created by wyggdd on 2023/3/2.
 //
 
-#import "SceneDelegate.h"
+#import "WYSceneDelegate.h"
 
-@interface SceneDelegate ()
+@interface WYSceneDelegate ()
 
 @end
 
-@implementation SceneDelegate
+@implementation WYSceneDelegate
 
 
 - (void)scene:(UIScene *)scene willConnectToSession:(UISceneSession *)session options:(UISceneConnectionOptions *)connectionOptions {

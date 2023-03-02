@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		38618D0829B0EB0D009BA501 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38618D0729B0EB0D009BA501 /* AppDelegate.m */; };
-		38618D0B29B0EB0D009BA501 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38618D0A29B0EB0D009BA501 /* SceneDelegate.m */; };
-		38618D0E29B0EB0D009BA501 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38618D0D29B0EB0D009BA501 /* ViewController.m */; };
+		38618D0829B0EB0D009BA501 /* WYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38618D0729B0EB0D009BA501 /* WYAppDelegate.m */; };
+		38618D0B29B0EB0D009BA501 /* WYSceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38618D0A29B0EB0D009BA501 /* WYSceneDelegate.m */; };
+		38618D0E29B0EB0D009BA501 /* WYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38618D0D29B0EB0D009BA501 /* WYViewController.m */; };
 		38618D1129B0EB0D009BA501 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38618D0F29B0EB0D009BA501 /* Main.storyboard */; };
 		38618D1329B0EB11009BA501 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38618D1229B0EB11009BA501 /* Assets.xcassets */; };
 		38618D1629B0EB11009BA501 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38618D1429B0EB11009BA501 /* LaunchScreen.storyboard */; };
@@ -38,12 +38,12 @@
 
 /* Begin PBXFileReference section */
 		38618D0329B0EB0D009BA501 /* WYCaseapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WYCaseapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		38618D0629B0EB0D009BA501 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		38618D0729B0EB0D009BA501 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		38618D0929B0EB0D009BA501 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		38618D0A29B0EB0D009BA501 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		38618D0C29B0EB0D009BA501 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		38618D0D29B0EB0D009BA501 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		38618D0629B0EB0D009BA501 /* WYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYAppDelegate.h; sourceTree = "<group>"; };
+		38618D0729B0EB0D009BA501 /* WYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYAppDelegate.m; sourceTree = "<group>"; };
+		38618D0929B0EB0D009BA501 /* WYSceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYSceneDelegate.h; sourceTree = "<group>"; };
+		38618D0A29B0EB0D009BA501 /* WYSceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYSceneDelegate.m; sourceTree = "<group>"; };
+		38618D0C29B0EB0D009BA501 /* WYViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYViewController.h; sourceTree = "<group>"; };
+		38618D0D29B0EB0D009BA501 /* WYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYViewController.m; sourceTree = "<group>"; };
 		38618D1029B0EB0D009BA501 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		38618D1229B0EB11009BA501 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		38618D1529B0EB11009BA501 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -104,12 +104,12 @@
 		38618D0529B0EB0D009BA501 /* WYCaseapp */ = {
 			isa = PBXGroup;
 			children = (
-				38618D0629B0EB0D009BA501 /* AppDelegate.h */,
-				38618D0729B0EB0D009BA501 /* AppDelegate.m */,
-				38618D0929B0EB0D009BA501 /* SceneDelegate.h */,
-				38618D0A29B0EB0D009BA501 /* SceneDelegate.m */,
-				38618D0C29B0EB0D009BA501 /* ViewController.h */,
-				38618D0D29B0EB0D009BA501 /* ViewController.m */,
+				38618D0629B0EB0D009BA501 /* WYAppDelegate.h */,
+				38618D0729B0EB0D009BA501 /* WYAppDelegate.m */,
+				38618D0929B0EB0D009BA501 /* WYSceneDelegate.h */,
+				38618D0A29B0EB0D009BA501 /* WYSceneDelegate.m */,
+				38618D0C29B0EB0D009BA501 /* WYViewController.h */,
+				38618D0D29B0EB0D009BA501 /* WYViewController.m */,
 				38618D0F29B0EB0D009BA501 /* Main.storyboard */,
 				38618D1229B0EB11009BA501 /* Assets.xcassets */,
 				38618D1429B0EB11009BA501 /* LaunchScreen.storyboard */,
@@ -266,10 +266,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38618D0E29B0EB0D009BA501 /* ViewController.m in Sources */,
-				38618D0829B0EB0D009BA501 /* AppDelegate.m in Sources */,
+				38618D0E29B0EB0D009BA501 /* WYViewController.m in Sources */,
+				38618D0829B0EB0D009BA501 /* WYAppDelegate.m in Sources */,
 				38618D1929B0EB11009BA501 /* main.m in Sources */,
-				38618D0B29B0EB0D009BA501 /* SceneDelegate.m in Sources */,
+				38618D0B29B0EB0D009BA501 /* WYSceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,6 +450,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -477,6 +478,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

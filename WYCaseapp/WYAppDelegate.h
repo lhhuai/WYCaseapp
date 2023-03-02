@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  WYAppDelegate.h
 //  WYCaseapp
 //
 //  Created by wyggdd on 2023/3/2.
@@ -7,7 +7,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface WYAppDelegate : UIResponder <UIApplicationDelegate>
 
 
 @end
